@@ -1,0 +1,51 @@
+.hd {
+    width:100%;
+    margin-top: 0px;
+    font-size: 23px;
+   letter-spacing:5px;
+   word-spacing: 2px;
+ 
+}
+#hrop {
+    width:100%;
+    border-radius: 100px;
+    height:5px;
+    background-color: white;
+    margin-top:20px ;
+    
+}
+.dan {
+    font-size: 30px;
+}
+.oran {
+    color:purple;
+}
+#footerop {
+    bottom: 0;
+    background-color:black;
+    width:100%;
+    height:23px;
+    text-align:center;
+   color:white;
+    position: fixed; 
+    letter-spacing:4px;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+}
+canvas {
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {
+      box-shadow: 1px 1px 88px purple;
+    }
+
+    to {
+      box-shadow: 1px 1px 88px blue;
+    }
+  }
+  
